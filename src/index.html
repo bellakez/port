@@ -2,16 +2,128 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/pkr7zte.css" />
     <title>Vite App</title>
   </head>
-  <body class="grid place-items-center p-8">
-    <h1 class="text-xl font-bold text-emerald-700">Tailwind Template E2022</h1>
-    <p class="text-emerald-500">
-      Powered by <a href="https://vitejs.dev/guide">Vite</a>
-    </p>
-    <img src="img/vite.svg" alt="Vite Logo" />
+  <body class="">
+      <header class="header">
+    <a href="" class="logo w-2/3 md:w-1/4 lg:w-1/4"><img class="logo w-1/3" src="logo.svg" alt=""></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"
+      ><span class="navicon"></span
+    ></label>
+    <ul class="menu">
+      <li><a href="#section2">Om mig</a></li>
+      <li><a href="#section3">Design</a></li>
+      <li><a href="#careers">Illustrationer</a></li>
+      <li><a href="#contact">Kodning</a></li>
+      <li><a href="#contact">Egenskaber</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+  </header>
+    <!-- ______SECTION2 STARTER HER_______ -->
+    <section id="section2">
+      <!-- ikon og overskrift -->
+      <div class="mb-7 text-center lg:mb-14">
+        <div class="m-2 flex justify-center">
+          <img
+            class="w-1/6 md:w-2/12 lg:w-1/12"
+            src="ikoner/ikon1.svg"
+            alt="ikon om mig"
+          />
+        </div>
+        <h2>Om mig</h2>
+      </div>
+      <!-- slut her  -->
+      <div class="m-4 flex justify-center md:m-12 lg:m-24">
+        <div class="grid-cols-2 lg:grid lg:gap-6">
+          <!-- billede -->
+          <div class="flex justify-center md:m-7">
+            <div class="lg:w-96">
+              <img src="fotos/isabella1.jpg" alt="" />
+            </div>
+          </div>
+          <!-- tekst -->
+          <div class="lg:w-96">
+            <h3 class="mt-4">Persona</h3>
+            <p>
+              Jeg hedder Isabella Wahl Persson og jeg er 25 år gammel. Jeg er
+              født og opvokset på Frederiksberg. I min fritid tegner jeg, og er
+              sammen med min familie og de nærmeste. De sidste 4 år før jeg
+              startede på KEA har jeg boet i Spanien og rejst meget til
+              Tanzania, hvor jeg har familie. Jeg er kreativ og holder specielt
+              meget af design delen på multimediedesign studiet. I min fritid
+              laver jeg illustrationer, som både kan være vector grafik, men
+              også tegnede digitale illustrationer. Jeg er hårdtarbejdende og
+              bestræber mig altid på, at skabe det bedste jeg kan.
+            </p>
+            <h3 class="mt-4">Kreativt design</h3>
+            <p>
+              Som digital designer er mit fokus, at bruge min kreative baggrund
+              i sammenfletning med min erfaring og mit kendskab til design
+              konventionerne, til at skabe noget nytænkende og innovativt. Jeg
+              er særligt glad for at lave digitale illustrationer, som jeg til
+              tider, anvender på de digitale løsninger jeg skaber. Dette kunne
+              være fx. ikoner eller symboler, som kan give et mere brugervenligt
+              udtryk. Desuden er det vigtigt for mig som designer at skabe
+              digitale løsninger, som er skræddersyet til kundens behov. Dette
+              gør jeg at anvende mine kompetencer indenfor UX og UI.
+            </p>
+            <a class="mt-4" href="#">Se CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ______SECTION3 STARTER HER_______ -->
+    <section id="section3">
+      <!-- ikon og overskrift -->
+      <div class="mb-7 text-center lg:mb-14">
+        <div class="m-2 flex justify-center">
+          <img
+            class="w-1/6 md:w-2/12 lg:w-1/12"
+            src="ikoner/ikon2.svg"
+            alt="ikon om mig"
+          />
+        </div>
+        <h2>Design</h2>
+      </div>
+      <!-- her er computerer klikbare -->
+      <div class="flex justify-center">
+        <div class="md:grid md:grid-cols-2 lg:grid lg:grid-cols-2">
+          <!-- computer 1 - lotte -->
+          <div class="flex justify-center">
+            <div class="w-2/3">
+              <a href=""><img src="computer/computer3.svg" alt="computer" /></a>
+            </div>
+          </div>
+          <!-- computer 2 - spil -->
+          <div class="flex justify-center">
+            <div class="w-2/3">
+              <a href="http://bellakezia.dk/kea/04_animation/spil/spil.html"
+                ><img src="computer/computer1.svg" alt="computer"
+              /></a>
+            </div>
+          </div>
+          <!-- computer 3 - musik -->
+          <div class="flex justify-center">
+            <div class="w-2/3">
+              <a href=""><img src="computer/computer4.svg" alt="computer" /></a>
+            </div>
+          </div>
+          <!-- computer 4 - shop -->
+          <div class="flex justify-center">
+            <div class="w-2/3">
+              <a href="https://www.charlottewahl.dk/"
+                ><img src="computer/computer2.svg" alt="computer"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script type="module" src="./main.js"></script>
   </body>
