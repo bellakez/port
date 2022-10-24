@@ -8,25 +8,36 @@
     <title>Vite App</title>
   </head>
   <body class="">
-      <header class="header">
-    <a href="" class="logo w-2/3 md:w-1/4 lg:w-1/4"><img class="logo w-1/3" src="logo.svg" alt=""></a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"
-      ><span class="navicon"></span
-    ></label>
-    <ul class="menu">
-      <li><a href="#section2">Om mig</a></li>
-      <li><a href="#section3">Design</a></li>
-      <li><a href="#careers">Illustrationer</a></li>
-      <li><a href="#contact">Kodning</a></li>
-      <li><a href="#contact">Egenskaber</a></li>
-      <li><a href="#contact">Kontakt</a></li>
-    </ul>
-  </header>
-    <!-- ______SECTION2 STARTER HER_______ -->
-    <section id="section2">
+    <header class="header">
+      <a href="index.html"
+        ><img class="logo w-1/4 md:w-1/12 lg:w-1/12" src="logo.svg" alt=""
+      /></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="#section2">Om mig</a></li>
+        <li><a href="#section3">Design</a></li>
+        <li><a href="#section7">Kodning</a></li>
+        <li><a href="#section8">Egenskaber</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </header>
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- ______________________________SECTION1 STARTER HER____________________ -->
+    <section>
+      <div class="forsidebillede">
+        <a href="#section8"><button class="bg-[#EE6C4A] hover:bg-[#F2E7E4] text-white py-3 px-6 lg:py-8 lg:px-32 md:py-6 md:px-24 absolute top-2/3 right-4 lg:top-2/3 lg:left-28 md:top-2/3 md:left-12 lg:text-xl md:text-lg text-sm">
+          Se egenskaber
+        </button></a>
+      </div>
+    </section>
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- ______________________________SECTION2 STARTER HER____________________ -->
+    <section id="section2" class="lg:m-24">
       <!-- ikon og overskrift -->
-      <div class="mb-7 text-center lg:mb-14">
+      <div class="mt-12 text-center lg:mt-16">
         <div class="m-2 flex justify-center">
           <img
             class="w-1/6 md:w-2/12 lg:w-1/12"
@@ -41,7 +52,7 @@
         <div class="grid-cols-2 lg:grid lg:gap-6">
           <!-- billede -->
           <div class="flex justify-center md:m-7">
-            <div class="lg:w-96">
+            <div class="md:w-2/3 lg:w-full">
               <img src="fotos/isabella1.jpg" alt="" />
             </div>
           </div>
@@ -71,16 +82,27 @@
               digitale løsninger, som er skræddersyet til kundens behov. Dette
               gør jeg at anvende mine kompetencer indenfor UX og UI.
             </p>
-            <a class="mt-4" href="#">Se CV</a>
+            <a class="mt-4 text-[#EE6C4A] underline underline-offset-2" href="cv.html"
+              >Se CV</a
+            >
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ______SECTION3 STARTER HER_______ -->
-    <section id="section3">
+    <!-- __________________________SECTION MED KORT STARTER HER________________________________ -->
+    <section class="lg:m-32">
+      <div class="flex justify-center">
+        <div class="kort w-2/3 md:w-1/2 lg:w-1/3">
+          <img src="illustrator/3ting.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- __________________________SECTION3 STARTER HER________________________________ -->
+    <section id="section3" class="lg:m-24">
       <!-- ikon og overskrift -->
-      <div class="mb-7 text-center lg:mb-14">
+      <div class="mt-12 text-center lg:mt-16">
         <div class="m-2 flex justify-center">
           <img
             class="w-1/6 md:w-2/12 lg:w-1/12"
@@ -91,17 +113,19 @@
         <h2>Design</h2>
       </div>
       <!-- her er computerer klikbare -->
-      <div class="flex justify-center">
-        <div class="md:grid md:grid-cols-2 lg:grid lg:grid-cols-2">
+      <div class="m-14">
+        <div class="ju md:grid md:grid-cols-2 lg:grid lg:grid-cols-2">
           <!-- computer 1 - lotte -->
           <div class="flex justify-center">
-            <div class="w-2/3">
-              <a href=""><img src="computer/computer3.svg" alt="computer" /></a>
+            <div class="w-2/3 md:w-2/3 lg:w-1/2">
+              <a href="http://charlottewahl.dk"
+                ><img src="computer/computer3.svg" alt="computer"
+              /></a>
             </div>
           </div>
           <!-- computer 2 - spil -->
           <div class="flex justify-center">
-            <div class="w-2/3">
+            <div class="w-2/3 md:w-2/3 lg:w-1/2">
               <a href="http://bellakezia.dk/kea/04_animation/spil/spil.html"
                 ><img src="computer/computer1.svg" alt="computer"
               /></a>
@@ -109,28 +133,31 @@
           </div>
           <!-- computer 3 - musik -->
           <div class="flex justify-center">
-            <div class="w-2/3">
-              <a href=""><img src="computer/computer4.svg" alt="computer" /></a>
+            <div class="w-2/3 md:w-2/3 lg:w-1/2">
+              <a href="http://bellakezia.dk/kea3/tema13/vildskud-festival/"
+                ><img src="computer/computer2.svg" alt="computer"
+              /></a>
             </div>
           </div>
           <!-- computer 4 - shop -->
           <div class="flex justify-center">
-            <div class="w-2/3">
-              <a href="https://www.charlottewahl.dk/"
-                ><img src="computer/computer2.svg" alt="computer"
+            <div class="w-2/3 md:w-2/3 lg:w-1/2">
+              <a href="http://bellakezia.dk/fritid/mt/index.html"
+                ><img src="computer/computer4.svg" alt="computer"
               /></a>
             </div>
           </div>
         </div>
       </div>
     </section>
-       <!-- ______SECTION4 STARTER HER_______ -->
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- ______________________________SECTION4 STARTER HER_____________________ -->
     <section id="section4">
       <!-- ikon og overskrift -->
-      <div class="mb-7 text-center lg:mb-14">
+      <div class="mt-12 text-center lg:mt-16">
         <div class="m-2 flex justify-center">
           <img
-            class="w-1/6 md:w-2/12 lg:w-1/12"
+            class="w-1/5 md:w-2/12 lg:w-2/12"
             src="ikoner/ikon3.svg"
             alt="ikon om mig"
           />
@@ -138,21 +165,377 @@
         <h2>Illustrationer</h2>
       </div>
     </section>
+    <!-- ___________________________SECTION MED SLIDESHOW FRA ILLUSTRATOR_______________________ -->
+    <section id="section_illustrator" class="lg:m-24">
+      <h3 class="text-center">Illustrator</h3>
+      <div class="flex justify-center">
+        <div class="md:grid md:grid-cols-2 lg:grid lg:grid-cols-2">
+          <!-- CONTAINERBOX 1 -->
+          <div class="flex justify-center">
+            <div class="w-2/3">
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="illustrator/svg/logos1.svg" style="width: 100%" />
+                </div>
 
-       <!-- ______SECTION7 STARTER HER_______ -->
-    <section id="section7">
+                <div class="mySlides fade">
+                  <img src="illustrator/svg/logos2.svg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="illustrator/svg/devices.svg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="illustrator/svg/ikoner1.svg" style="width: 100%" />
+                </div>
+                <div class="mySlides fade">
+                  <img src="illustrator/svg/ikoner2.svg" style="width: 100%" />
+                </div>
+                <div class="mySlides fade">
+                  <img src="illustrator/svg/ikoner3.svg" style="width: 100%" />
+                </div>
+                <div class="mySlides fade">
+                  <img src="illustrator/svg/ikoner4.svg" style="width: 100%" />
+                </div>
+                <div class="mySlides fade">
+                  <img src="illustrator/svg/ikoner5.svg" style="width: 100%" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CONTAINERBOX 2 -->
+          <div class="flex justify-center">
+            <div class="w-2/3">
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides2 fade2">
+                  <img
+                    src="illustrator/svg/controlla.svg"
+                    style="width: 100%"
+                  />
+                </div>
+
+                <div class="mySlides2 fade2">
+                  <img src="illustrator/svg/bag.svg" style="width: 100%" />
+                </div>
+                <div class="mySlides2 fade2">
+                  <img src="illustrator/svg/figur1.svg" style="width: 100%" />
+                </div>
+                <div class="mySlides2 fade2">
+                  <img src="illustrator/svg/figur2.svg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides2 fade2">
+                  <img src="illustrator/figur3-100.webp" style="width: 100%" />
+                </div>
+
+                <div class="mySlides2 fade2">
+                  <img
+                    src="illustrator/svg/vild/rebirth.svg"
+                    style="width: 100%"
+                  />
+                </div>
+                <div class="mySlides2 fade2">
+                  <img
+                    src="illustrator/svg/vild/gogo.svg"
+                    style="width: 100%"
+                  />
+                </div>
+                <div class="mySlides2 fade2">
+                  <img
+                    src="illustrator/svg/vild/levende.svg"
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- containbox slut -->
+        </div>
+      </div>
+    </section>
+    <!-- __________________SECTION MED SLIDESHOW FRA PROCREATE______________ -->
+    <section id="section_procreate" class="lg:m-24">
+      <h3 class="text-center lg:mb-24">Procreate</h3>
+      <div class="flex justify-center">
+        <div class="md:grid md:grid-cols-2 lg:grid lg:grid-cols-2">
+          <!-- CONTAINERBOX 1 -->
+          <div class="flex justify-center">
+            <div class="w-2/3">
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides3 fade">
+                  <img src="procreate/mini/unesco2-1.jpg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides3 fade">
+                  <img src="procreate/mini/unesco2-2.jpg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides3 fade">
+                  <img src="procreate/mini/unesco2-3.jpg" style="width: 100%" />
+                </div>
+                <div class="mySlides3 fade">
+                  <img src="procreate/mini/penge.jpg" style="width: 100%" />
+                </div>
+                <div class="mySlides3 fade">
+                  <img src="procreate/mini/filmrulle.jpg" style="width: 100%" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CONTAINERBOX 2 -->
+          <div class="flex justify-center">
+            <div class="w-2/3">
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides4 fade">
+                  <img src="procreate/advanced/8.jpg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides4 fade">
+                  <img src="procreate/advanced/9.jpg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides4 fade">
+                  <img src="procreate/advanced/10.jpg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides4 fade">
+                  <img src="procreate/advanced/11.png" style="width: 100%" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- containbox slut -->
+        </div>
+      </div>
+    </section>
+    <!-- __________________SECTION MED FOTO SLIDER__________ -->
+    <section id="section_fotoslider"></section>
+
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- ______SECTION7 STARTER HER_______ -->
+    <section id="section7" class="lg:m-24">
       <!-- ikon og overskrift -->
-      <div class="mb-7 text-center lg:mb-14">
+      <div class="mt-12 text-center lg:mt-16">
         <div class="m-2 flex justify-center">
           <img
-            class="w-1/6 md:w-2/12 lg:w-1/12"
+            class="w-1/6 md:w-2/12 lg:w-2/12"
             src="ikoner/ikon4.svg"
             alt="ikon om mig"
           />
         </div>
         <h2>Kodning</h2>
       </div>
-      </section>
+      <!-- her starter billeder og tekst BOX 1-->
+      <div class="m-4 flex justify-center md:m-12 lg:m-24">
+        <div class="grid-cols-2 lg:grid lg:gap-6">
+          <!-- tekst -->
+          <div class="lg:w-96">
+            <h3 class="mt-4">Multi page website</h3>
+            <p>
+              Ved at lave flere pages på et site, må man nøje overveje AI
+              (informations arkitekturen), og dertil skabe et sitemap over
+              sitets pages. Dertil skabes der moodboard og style tile til at
+              have et visuelt overblik over sitets visuelle identitet. Ud fra AI
+              og den visuelle identitet, kan man skabe UI elementer som
+              repræsenterer den visuelle identitet og giver en brugervenlig
+              oplevelse. For at sikre sig, at dette lever op til ovenstående,
+              laves der lofi- og hifi-prototyper, som der testes på brugerne
+              indenfor UX og UI, som giver en forståelse af brugerens rejse og
+              oplevelse af site/produkt.
+              <strong
+                >På billedet ses et forsimplet eksempel på denne proces.
+              </strong>
+            </p>
+          </div>
+          <!-- billede -->
+          <div class="flex justify-center md:m-7">
+            <div class="lg:w-96">
+              <a href="https://charlottewahl.dk"
+                ><img src="Kodning/charlottewahl.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- her starter billeder og tekst BOX 2-->
+      <div class="m-4 flex justify-center md:m-12 lg:m-24">
+        <div class="grid-cols-2 lg:grid lg:gap-6">
+          <!-- tekst -->
+          <div class="lg:w-96">
+            <h3 class="mt-4">Motion, scroll effect and animation</h3>
+            <p>
+              Som en nyere del af web verdenen ses der mere motion scroll og
+              animationer på sites. Dette kan være i henhold til at give sitet
+              et mere dynamisk og levende udtryk, som kan gøre det mere
+              spændende for brugeren. Ved at lave et visuelt overblik over de
+              animationer, og motion scrolls man ønsker, kan man vha. Figma
+              skabe animationer simplificeret i en prototype før man skaber det
+              i koden.
+              <strong>
+                I billede eksemplet kan der ses en proces af et site med
+                ovenstående.</strong
+              >
+            </p>
+          </div>
+          <!-- billede -->
+          <div class="flex justify-center md:m-7">
+            <div class="lg:w-96">
+              <a href="http://bellakezia.dk/kea3/tema12/pierre-falcke/"
+                ><img src="Kodning/motion_animation.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- her starter billeder og tekst BOX 1-->
+      <div class="m-4 flex justify-center md:m-12 lg:m-24">
+        <div class="grid-cols-2 lg:grid lg:gap-6">
+          <!-- tekst -->
+          <div class="lg:w-96">
+            <h3 class="mt-4">1. Semester portfolio med UX test</h3>
+            <p>
+              Udover essencen af design, er det relevant at teste sit produkt og
+              forstå sin målgruppe og brugere. Hertil er det relevant at skabe
+              nogle UX og UI tests, som gennem research giver én en forståelse
+              målgruppens behov og ønsker, samt et overblik brugerens oplevelse
+              af interfacet eller designet. Dette kan være gennem surveys,
+              interviews, BERT test, tænke højt tests mm.
+              <strong
+                >En proces af denne kan ses ved at klikke på billedet.</strong
+              >
+            </p>
+          </div>
+          <!-- billede -->
+          <div class="flex justify-center md:m-7">
+            <div class="lg:w-96">
+              <a
+                href="http://bellakezia.dk/kea/06_portfolio/eksamen/doku.html#section4"
+                ><img src="Kodning/portfolio1.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- _____________SECTION8 STARTER HER_____________ -->
+    <section id="section8" class="lg:m-24">
+      <!-- ikon og overskrift -->
+      <div class="mt-12 text-center lg:mt-16">
+        <div class="m-2 flex justify-center">
+          <img
+            class="w-1/6 md:w-2/12 lg:w-1/12"
+            src="ikoner/ikon5.svg"
+            alt="ikon om mig"
+          />
+        </div>
+        <h2>Egenskaber</h2>
+      </div>
+      <!-- her er container udenom egenskaber -->
+      <div class="m-4 flex justify-center md:m-12 lg:m-24">
+        <div class="grid-cols-2 lg:grid lg:gap-6">
+          <!-- her er første box om egenskaber -->
+          <div class="m-4 w-72 bg-[#F2E7E4] p-7 pb-14">
+            <h3>Kodning :</h3>
+            <br />
+            <p>◦ HTML5</p>
+            <br />
+            <p>◦ CSS</p>
+            <br />
+            <p>◦ Tailwind CSS</p>
+            <br />
+            <p>◦ JavaScript</p>
+            <br />
+            <p>◦ GitHub</p>
+          </div>
+
+          <!-- her er container udenom egenskaber -->
+          <div>
+            <!-- her er første box om egenskaber -->
+            <div class="m-4 w-72 bg-[#F2E7E4] p-7 pb-14">
+              <h3>Design :</h3>
+              <br />
+              <p>◦ Adobe, herunder :</p>
+              <p>- Illustrator</p>
+              <p>- Photoshop</p>
+              <p>- XD</p>
+              <p>- Lightroom</p>
+              <p>- InDesign</p>
+              <p>- Premiere Pro</p>
+              <br />
+              <p>◦ Figma</p>
+              <br />
+              <p>◦ UX/UI</p>
+              <br />
+              <p>◦ SoMe indhold</p>
+              <br />
+              <p>◦ Interface design</p>
+              <br />
+              <p>◦ Procreate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- __________________________SECTION MED KORT STARTER HER________________________________ -->
+    <section id="contact" class="lg:m-32">
+      <div class="flex justify-center">
+        <div class="kort w-2/3 md:w-1/2 lg:w-1/3">
+          <a href="mailto:bellakezia28@gmail.com"
+            ><img src="illustrator/kontakt.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footerbaggrund mt-7">
+        <div
+          class="ml-24 mr-16 gap-0 md:ml-6 md:flex md:justify-center md:gap-16 md:p-2 lg:ml-24 lg:mr-16 lg:flex lg:justify-center lg:gap-44 lg:p-2"
+        >
+          <div class="w-44 lg:mt-32">
+            <h3>Kontakt</h3>
+            <br />
+            <p><strong>Email:</strong></p>
+            <p>bellakezia28@gmail.com</p>
+            <p><strong>Nummer:</strong></p>
+            <p>52666342</p>
+          </div>
+          <div class="ml-7 mt-12 w-44 justify-center lg:mt-44">
+            <img class="md:w-1/2" src="logo.svg" alt="" />
+          </div>
+          <div class="flex justify-center">
+            <div class="mt-12 w-44 lg:mt-44">
+              <a href="https://www.instagram.com/ikiziia/">
+                <img
+                  class="w-2/3 md:w-1/2 lg:w-1/2"
+                  src="ikoner/insta.svg"
+                  alt="instagram"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/isabella-wahl-persson-9479a3250/"
+                ><img
+                  class="w-2/3 md:w-1/2 lg:w-1/2"
+                  src="ikoner/linkedin.svg"
+                  alt="linkedin"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script type="module" src="./main.js"></script>
   </body>
