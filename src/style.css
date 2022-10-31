@@ -351,7 +351,7 @@
     }
   }
 
-  /* ________SLIDER 3__________*/
+  /* ________SLIDER 4__________*/
 
   /* Hide the images by default */
   .mySlides4 {
@@ -372,7 +372,46 @@
       opacity: 1;
     }
   }
-  /* ________foto slider____ */
+  /* ________foto slider1____ */
+    /* Hide the images by default */
+  .mySlides5 {
+    display: none;
+  }
+
+  /* Fading animation */
+  .fade5 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade5 {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* ________foto slider2____ */
+     /* Hide the images by default */
+  .mySlides6 {
+    display: none;
+  }
+
+  /* Fading animation */
+  .fade6 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade6 {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
   .kort {
     animation-name: cirkel_sprite_kf;

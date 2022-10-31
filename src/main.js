@@ -83,3 +83,46 @@ function showSlides4() {
   slides4[slideIndex4 - 1].style.display = "block";
   setTimeout(showSlides4, 2000); // Change image every 2 seconds
 } 
+
+
+// SLIDER 5
+
+
+let slideIndex5 = 0;
+showSlides5();
+
+
+function showSlides5() {
+  let i5;
+  let slides5 = document.getElementsByClassName("mySlides5");
+  for (i5 = 0; i5 < slides5.length; i5++) {
+    slides5[i5].style.display = "none";
+  }
+  slideIndex5++;
+  if (slideIndex5 > slides5.length) {
+    slideIndex5 = 1;
+  }
+  slides5[slideIndex5 - 1].style.display = "block";
+  setTimeout(showSlides5, 2000); // Change image every 2 seconds
+} 
+
+// SLIDER 6
+
+
+let slideIndex6 = 0;
+showSlides6();
+
+
+function showSlides6() {
+  let i6;
+  let slides6 = document.getElementsByClassName("mySlides6");
+  for (i6 = 0; i6 < slides6.length; i6++) {
+    slides6[i6].style.display = "none";
+  }
+  slideIndex6++;
+  if (slideIndex6 > slides6.length) {
+    slideIndex6 = 1;
+  }
+  slides6[slideIndex6 - 1].style.display = "block";
+  setTimeout(showSlides6, 2000); // Change image every 2 seconds
+} 
